@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakibul Hasan</title>
+    <style>
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        tr{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 align="center">About Me</h2>
+        <p>I am <b>Rakibul Hasan</b>. I am a student of Comilla University. I am now doing my graduation in Computer Science and Engineering subject. I want to learn lots of things. For this reason I want to complete this course of <b>Strange Programming</b>.</p>
+        <br>
+        <img src="rakib.jpg" height="200px" width="200px" alt="Rakib's photo"/>
+    </div>
+    <hr>
+    <table border="2px">
+        <thead>
+            <tr><th rowspan="2">Heading</th><th>Student</th><th colspan="3">Details</th></tr>
+            <tr><th>Id</th><th>Name</th><th>Department</th><th>Roll Number</th></tr>
+        </thead>
+        <tbody>
+            <tr><td rowspan="4">Student List</td><td>1</td><td>Rakib</td><td>CSE</td><td>11708051</td></tr>
+            <tr><td>2</td><td>Maruf</td><td>CSE</td><td>11708004</td></tr>
+            <tr><td>3</td><td>Tanveer</td><td>CSE</td><td>11708035</td></tr>
+            <tr><td>4</td><td>Sunny</td><td>CSE</td><td>11508046</td></tr>
+        </tbody>
+    </table>
+    <hr>
+    <form>
+        <div>
+            <label for="fullname">Name :</label>
+            <input type="text" name="fullname" id="fullname" required>
+        </div><br>
+        <div>
+            <label for="address">Address :</label>
+            <input type="text" name="address" id="address">
+        </div><br>
+        <div>
+            <label for="zip">Zip Code :</label>
+            <input type="text" name="zip" id="zip" required>
+        </div><br>
+        <div>
+            <label for="country">Country :</label>
+            <select name="country" placeholder="Please select..." required>
+                <option>Please Select...</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">female
+        </div><br>
+        <div>
+            <label for="preferences">Preferences :</label>
+            <input type="checkbox" name="preferences" id="preferences" value="red">Red
+            <input type="checkbox" name="preferences" id="preferences" value="green">Green
+            <input type="checkbox" name="preferences" id="preferences" value="blue">Blue
+        </div><br>
+        <div>
+            <label for="phone">Phone :</label>
+            <input type="text" name="phone" id="phone" required pattern="[0-9]+">
+        </div><br>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required>
+        </div><br>
+        <div>
+            <label for="password">Password(6-8 characters) :</label>
+            <input type="password" name="password" id="password" required>
+        </div><br>
+        <div>
+            <label for="vpassword">Verify Password :</label>
+            <input type="password" name="password" id="vpassword" required>
+        </div><br>
+        <button type="submit">SEND</button>
+        <button type="reset">CLEAR</button>
+    </form>
+    <hr>
+    <img src="1662010837watermelon-slice-3d.svg" height="100px" width="100px">
+</body>
+</html>
